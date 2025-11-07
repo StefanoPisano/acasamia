@@ -8,11 +8,11 @@ export default {
   theme: {
     extend: {
         colors: {
-            "almost-white": "#FEFDFF",
-            "silver": "#C1BFB5",
-            "powder-blue": "#8EB1C7",
-            "golden-gate-bridge": "#EB4511",
-            "rufous": "#B02E0C"
+            "antiflash-white": "#E8E9ED",
+            "yimin-blue": "#355070",
+            "french-gray": "#BABFD1",
+            "chocolate-cosmos": "#49111C",
+            "coral": "#EF8354"
         },
         fontFamily: {
             title: ["Indie Flower", "sans-serif"]
