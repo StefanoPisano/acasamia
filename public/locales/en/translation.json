@@ -1,0 +1,12 @@
+{
+  "welcome": "Hello World!",
+  "langs": {
+    "en": {
+      "name": "English"
+    },
+    "it": {
+      "name": "Italian"
+    },
+    "list": ["en", "it"]
+  }
+}
