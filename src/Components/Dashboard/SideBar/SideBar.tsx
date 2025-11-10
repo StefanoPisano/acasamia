@@ -1,5 +1,4 @@
 import * as React from "react";
-import styles from "./sidear.module.scss"
 
 const SideBar:React.FC = () => {
 

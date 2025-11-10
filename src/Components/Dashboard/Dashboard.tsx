@@ -1,11 +1,9 @@
 import * as React from "react";
-import {useTranslation} from "react-i18next";
 import SideBar from "@Components/Dashboard/SideBar/SideBar.tsx";
 import styles from "./dashboard.module.scss";
 import Card from "@Components/UI/Card.tsx";
 
 const Dashboard: React.FC = () => {
-    const {t} = useTranslation();
 
     return (
         <>
@@ -13,7 +11,7 @@ const Dashboard: React.FC = () => {
                 <div className={"basis-24"}>
                     <SideBar/>
                 </div>
-                <div className={"p-8 basis-full border-french-gray rounded-2xl border " + styles.gradient}>
+                <div className={"p-8 basis-full border-french-gray rounded-2xl border " + styles.bgDashboard}>
                     <Card/>
                 </div>
             </div>
