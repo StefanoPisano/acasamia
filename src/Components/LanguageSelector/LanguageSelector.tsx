@@ -17,7 +17,7 @@ const LanguageSelector:React.FC = () => {
 
     return (
         <>
-            <select className={"pl-2 pr-2 h-6"} onChange={handleChangeLanguage} value={selectedLanguage}>
+            <select className={"pl-2 pr-2 h-6 text-black"} onChange={handleChangeLanguage} value={selectedLanguage}>
                 {Object.values(availableLanguages).map((lang:string) =>
                     (<option key={lang} value={lang}>{t(`langs.${lang}.name`)}</option>))
                 }
