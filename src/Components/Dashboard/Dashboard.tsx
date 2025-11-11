@@ -1,7 +1,6 @@
 import * as React from "react";
 import SideBar from "@Components/Dashboard/SideBar/SideBar.tsx";
 import styles from "./dashboard.module.scss";
-import Card from "@Components/UI/Card.tsx";
 import MutuoSimulator from "@Components/Dashboard/MutuoSimulator/MutuoSimulator.tsx";
 import { Routes, Route } from 'react-router-dom';
 
@@ -14,11 +13,11 @@ const Dashboard: React.FC = () => {
                     <SideBar/>
                 </div>
                 <div className={"basis-full border-french-gray rounded-2xl border " + styles.bgDashboard}>
-                    <Card>
+                    <div className={"bg-antiflash-white w-full h-full rounded-2xl p-8"}>
                         <Routes>
                             <Route path="/mutuo" element={<MutuoSimulator />} />
                         </Routes>
-                    </Card>
+                    </div>
                 </div>
             </div>
         </>
