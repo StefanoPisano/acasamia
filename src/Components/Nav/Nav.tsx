@@ -1,6 +1,7 @@
 import * as React from "react";
 import LanguageSelector from "@Components/LanguageSelector/LanguageSelector.tsx";
 import logo from "@Assets/logo.png";
+import { Link } from 'react-router-dom';
 
 const Nav:React.FC = () => {
 
@@ -11,9 +12,7 @@ const Nav:React.FC = () => {
 
                 <div className={"flex flex-auto items-center pr-2"}>
                     <div className={"w-full flex gap-2 flex-auto items-center justify-center"}>
-                        <a href={""}>Lorem Ipsum Link 1</a>
-                        <a href={""}>Lorem Ipsum Link 2</a>
-                        <a href={""}>Lorem Ipsum Link 3</a>
+                        <Link to="/mutuo">Mutuo Simulator</Link>
                     </div>
 
                     <div className={"flex flex-auto justify-end"}>

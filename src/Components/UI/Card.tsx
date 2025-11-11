@@ -1,11 +1,14 @@
 import * as React from "react";
 
-const Card:React.FC = () => {
-    return <>
-        <div>
+interface CardProps {
+    children: React.ReactNode;
+}
 
+const Card: React.FC<CardProps> = ({ children }) => {
+    return <>
+        <div className={"bg-antiflash-white w-full h-full rounded-2xl p-8"}>
+            {children}
         </div>
-        I am a card
     </>
 }
 
